@@ -8,18 +8,24 @@ const CharacterDiv = styled.div`
     margin: 3% auto;
     border-radius: 100px;
     box-shadow: 3px 5px #fff;
+    font-size: 2rem;
  `
 
 const Name = styled.h2`
-    font-size: 3rem;
-    color: white;
+    font-size: 4rem;
+    color: #fff;
     text-decoration: underline;
+    transition: 1s;
+    &:hover{
+        color: yellow;
+        transition: 1s;
+    }
+    
  `
 
 
-
 const Gender = styled.p`
-    
+
 `
 
 const Height = styled.p`
