@@ -3,16 +3,18 @@ import React from 'react'
 import styled from 'styled-components'
 
 const CharacterDiv = styled.div`
-    border: 1px solid black;
+    border: 10px solid black;
     width: 50%;
     margin: 3% auto;
     border-radius: 100px;
-    
+    box-shadow: 3px 5px #fff;
  `
 
 const Name = styled.h2`
+    font-size: 3rem;
     color: white;
-    `
+    text-decoration: underline;
+ `
 
 
 
